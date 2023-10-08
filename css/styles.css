@@ -342,8 +342,11 @@ address {
 .social-media-box > .social-box > .social-circle > .social-link:focus {
     background-color: #31d0aa;
 }
-.subscribe-section {
+.cont-for-form {
     margin-left: 80px;
+
+}
+.subscribe-section {
     display: flex;
     gap: 24px;
     align-items: flex-end;
@@ -353,13 +356,16 @@ address {
     width: 264px;
     height: 40px;
     border-radius: 4px;
-    border: 1px solid white;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-    background-color: #2E2F42;
-    color: #fff;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #ffffff;
     padding-left: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 .footer-mail::placeholder {
     font-family: Roboto;
@@ -371,26 +377,29 @@ address {
     letter-spacing: 0.48px;
 }
 .footer-button {
+    min-width: 165px;
+    height: 40px;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5; 
-    letter-spacing: 0.04;
+    letter-spacing: 0.04em;
     display: flex;
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
-    gap: 16px;
     border: none;
     border-radius: 4px;
     background: #4D5AE5;
-    color: #fff;
+    color: #ffffff;
+    cursor: pointer;
 }
 .footer-button:hover{
     background-color: #404BBF;
 }
 .footer-subscribe-icon {
+    margin-left: 16px;
     fill: #fff;
 }
 .backdrop {
