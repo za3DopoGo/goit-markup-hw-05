@@ -588,7 +588,7 @@ address {
   justify-content: center;
   fill: transparent;
 }
-.check-marck:checked + .check {
+.check-marck:checked + .checkbox-label > .check {
     border: none;
     background-color: #404BBF;
     fill: #f4f4fd;
